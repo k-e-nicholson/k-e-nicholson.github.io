@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="index-style.css">
+        <title>Home</title>
     </head>
 
     <canvas id="canvas"></canvas>
@@ -18,7 +19,14 @@
                 button.addEventListener("click", changePage);
 
                 function changePage() {
-                    window.location.href = "file:///home/katherine/projects/website/k-e-nicholson.github.io/home.html";
+                    let file_ext = "";
+                    if (window.location.protocol === 'https:') {
+                        file_ext = "file:///home/katherine/projects/website/";
+                    }
+                    else {
+                        file_ext = "https://";
+                    }
+                    window.location.href = file_ext + "k-e-nicholson.github.io/about.html";
                 }
             </script>
         </div>

@@ -1,0 +1,23 @@
+.banner {
+    text-align: center;
+    margin: 0;
+    position: flex;
+    left: 50%;
+}
+
+.banner ul {
+    vertical-align: top;
+}
+
+.banner li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none; color:white;
+}
