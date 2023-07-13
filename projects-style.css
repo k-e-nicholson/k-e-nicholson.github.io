@@ -16,7 +16,7 @@ body { font-family: sans-serif;
 .gallery-cell {
     width: 100%;
     height: 800px;
-    margin:10px;
+    margin:5px;
     background: #8C8;
     text-align: center;
 }
